@@ -47,6 +47,15 @@ namespace xACARS
 
         }
 
+        private void button_login_Click(object sender, EventArgs e)
+        {
+            Hide();
+
+            Form main = new Main(); // Create new instance of the new form.
+
+            main.Show(); // Show it
+        }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -54,7 +63,7 @@ namespace xACARS
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            System.Diagnostics.Process.Start("http://www.google.com");
         }
     }
 }

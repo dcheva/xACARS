@@ -1,7 +1,7 @@
 ﻿
 namespace xACARS
 {
-    partial class Login
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,13 @@ namespace xACARS
         /// </summary>
         private void InitializeComponent()
         {
-            this.textbox_username = new System.Windows.Forms.TextBox();
-            this.textbox_apikey = new System.Windows.Forms.TextBox();
-            this.text_login = new System.Windows.Forms.Label();
-            this.text_username = new System.Windows.Forms.Label();
-            this.text_apikey = new System.Windows.Forms.Label();
-            this.checkbox_autologin = new System.Windows.Forms.CheckBox();
-            this.dropdown_airline = new System.Windows.Forms.ComboBox();
-            this.text_airline = new System.Windows.Forms.Label();
-            this.text_newUser = new System.Windows.Forms.LinkLabel();
-            this.button_login = new System.Windows.Forms.Button();
-            this.logo_big = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,124 +51,83 @@ namespace xACARS
             this.gettingStartedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wikiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bugReportingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.logo_big)).BeginInit();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textbox_username
+            // button1
             // 
-            this.textbox_username.Location = new System.Drawing.Point(278, 358);
-            this.textbox_username.Name = "textbox_username";
-            this.textbox_username.Size = new System.Drawing.Size(391, 20);
-            this.textbox_username.TabIndex = 1;
-            this.textbox_username.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 110);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 64);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Select Bid";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textbox_apikey
+            // button2
             // 
-            this.textbox_apikey.Location = new System.Drawing.Point(278, 384);
-            this.textbox_apikey.Name = "textbox_apikey";
-            this.textbox_apikey.Size = new System.Drawing.Size(391, 20);
-            this.textbox_apikey.TabIndex = 2;
+            this.button2.Enabled = false;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(12, 180);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(188, 64);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Prefile";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // text_login
+            // button3
             // 
-            this.text_login.AutoSize = true;
-            this.text_login.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.text_login.Location = new System.Drawing.Point(363, 214);
-            this.text_login.Name = "text_login";
-            this.text_login.Size = new System.Drawing.Size(227, 32);
-            this.text_login.TabIndex = 3;
-            this.text_login.Text = "xACARS - Login";
-            this.text_login.Click += new System.EventHandler(this.label1_Click);
+            this.button3.Enabled = false;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(12, 250);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(188, 64);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "Start Flight";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // text_username
+            // button4
             // 
-            this.text_username.AutoSize = true;
-            this.text_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.text_username.Location = new System.Drawing.Point(201, 358);
-            this.text_username.Name = "text_username";
-            this.text_username.Size = new System.Drawing.Size(71, 16);
-            this.text_username.TabIndex = 4;
-            this.text_username.Text = "Username";
-            this.text_username.Click += new System.EventHandler(this.label2_Click);
+            this.button4.Enabled = false;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(12, 320);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(188, 64);
+            this.button4.TabIndex = 19;
+            this.button4.Text = "Update Enroute Time";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // text_apikey
+            // button5
             // 
-            this.text_apikey.AutoSize = true;
-            this.text_apikey.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.text_apikey.Location = new System.Drawing.Point(217, 384);
-            this.text_apikey.Name = "text_apikey";
-            this.text_apikey.Size = new System.Drawing.Size(55, 16);
-            this.text_apikey.TabIndex = 7;
-            this.text_apikey.Text = "API Key";
-            this.text_apikey.Click += new System.EventHandler(this.label5_Click);
+            this.button5.Enabled = false;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(12, 390);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(188, 64);
+            this.button5.TabIndex = 20;
+            this.button5.Text = "Finish Flight";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // checkbox_autologin
+            // button6
             // 
-            this.checkbox_autologin.AutoSize = true;
-            this.checkbox_autologin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkbox_autologin.Location = new System.Drawing.Point(278, 440);
-            this.checkbox_autologin.Name = "checkbox_autologin";
-            this.checkbox_autologin.Size = new System.Drawing.Size(143, 20);
-            this.checkbox_autologin.TabIndex = 9;
-            this.checkbox_autologin.Text = "Login Automatically";
-            this.checkbox_autologin.UseVisualStyleBackColor = true;
-            // 
-            // dropdown_airline
-            // 
-            this.dropdown_airline.FormattingEnabled = true;
-            this.dropdown_airline.Location = new System.Drawing.Point(278, 331);
-            this.dropdown_airline.Name = "dropdown_airline";
-            this.dropdown_airline.Size = new System.Drawing.Size(391, 21);
-            this.dropdown_airline.TabIndex = 10;
-            this.dropdown_airline.Text = "Select an Airline";
-            // 
-            // text_airline
-            // 
-            this.text_airline.AutoSize = true;
-            this.text_airline.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.text_airline.Location = new System.Drawing.Point(227, 331);
-            this.text_airline.Name = "text_airline";
-            this.text_airline.Size = new System.Drawing.Size(45, 16);
-            this.text_airline.TabIndex = 11;
-            this.text_airline.Text = "Airline";
-            // 
-            // text_newUser
-            // 
-            this.text_newUser.AutoSize = true;
-            this.text_newUser.LinkColor = System.Drawing.Color.DimGray;
-            this.text_newUser.Location = new System.Drawing.Point(275, 483);
-            this.text_newUser.Name = "text_newUser";
-            this.text_newUser.Size = new System.Drawing.Size(210, 13);
-            this.text_newUser.TabIndex = 12;
-            this.text_newUser.TabStop = true;
-            this.text_newUser.Text = "New to xACARS? Click to add an account!";
-            this.text_newUser.VisitedLinkColor = System.Drawing.Color.DimGray;
-            this.text_newUser.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
-            // button_login
-            // 
-            this.button_login.AccessibleName = "login_button";
-            this.button_login.BackColor = System.Drawing.Color.DimGray;
-            this.button_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_login.ForeColor = System.Drawing.Color.White;
-            this.button_login.Location = new System.Drawing.Point(520, 466);
-            this.button_login.Name = "button_login";
-            this.button_login.Size = new System.Drawing.Size(149, 46);
-            this.button_login.TabIndex = 13;
-            this.button_login.Text = "Log In";
-            this.button_login.UseVisualStyleBackColor = false;
-            this.button_login.Click += new System.EventHandler(this.button_login_Click);
-            // 
-            // logo_big
-            // 
-            this.logo_big.BackgroundImage = global::xACARS.Properties.Resources.Logo;
-            this.logo_big.Location = new System.Drawing.Point(278, 38);
-            this.logo_big.Name = "logo_big";
-            this.logo_big.Size = new System.Drawing.Size(391, 133);
-            this.logo_big.TabIndex = 14;
-            this.logo_big.TabStop = false;
-            this.logo_big.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.button6.Enabled = false;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(12, 460);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(188, 64);
+            this.button6.TabIndex = 21;
+            this.button6.Text = "File PIREP";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // menuStrip1
             // 
@@ -182,7 +137,7 @@ namespace xACARS
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(934, 24);
-            this.menuStrip1.TabIndex = 23;
+            this.menuStrip1.TabIndex = 22;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
@@ -232,6 +187,7 @@ namespace xACARS
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exit_Cick);
             // 
             // helpToolStripMenuItem
             // 
@@ -251,6 +207,7 @@ namespace xACARS
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
             this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.openAbout_Click);
             // 
             // simulatorConnectionTestToolStripMenuItem
             // 
@@ -281,45 +238,81 @@ namespace xACARS
             this.bugReportingToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
             this.bugReportingToolStripMenuItem.Text = "Bug Reporting";
             // 
-            // Login
+            // listBox1
+            // 
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Items.AddRange(new object[] {
+            "This redesign was originally done by Henry Shires of Estafeta Virtual.",
+            "If you want, check out their VA at www.estafetava.com!",
+            "",
+            "xACARS output goes here.",
+            "NOTICE: There is a known issue with a ghost process remaining if you exit the win" +
+                "dow. ",
+            "The only way to avoid this for now is to close with File -> Exit."});
+            this.listBox1.Location = new System.Drawing.Point(206, 65);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(716, 462);
+            this.listBox1.TabIndex = 23;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(206, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(673, 25);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Welcome to xACARS! If your new here, check Help -> Getting Started";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::xACARS.Properties.Resources.Logo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(188, 77);
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(934, 536);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.logo_big);
-            this.Controls.Add(this.button_login);
-            this.Controls.Add(this.text_newUser);
-            this.Controls.Add(this.text_airline);
-            this.Controls.Add(this.dropdown_airline);
-            this.Controls.Add(this.checkbox_autologin);
-            this.Controls.Add(this.text_apikey);
-            this.Controls.Add(this.text_username);
-            this.Controls.Add(this.text_login);
-            this.Controls.Add(this.textbox_apikey);
-            this.Controls.Add(this.textbox_username);
-            this.Name = "Login";
-            this.Text = "xACARS (C# Rewrite) - Login";
-            ((System.ComponentModel.ISupportInitialize)(this.logo_big)).EndInit();
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Main";
+            this.Text = "xACARS";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textbox_username;
-        private System.Windows.Forms.TextBox textbox_apikey;
-        private System.Windows.Forms.Label text_login;
-        private System.Windows.Forms.Label text_username;
-        private System.Windows.Forms.Label text_apikey;
-        private System.Windows.Forms.CheckBox checkbox_autologin;
-        private System.Windows.Forms.ComboBox dropdown_airline;
-        private System.Windows.Forms.Label text_airline;
-        private System.Windows.Forms.LinkLabel text_newUser;
-        private System.Windows.Forms.Button button_login;
-        private System.Windows.Forms.PictureBox logo_big;
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
@@ -329,12 +322,13 @@ namespace xACARS
         private System.Windows.Forms.ToolStripMenuItem signOutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gettingStartedToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem simulatorConnectionTestToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem gettingStartedToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wikiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bugReportingToolStripMenuItem;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
     }
 }
-

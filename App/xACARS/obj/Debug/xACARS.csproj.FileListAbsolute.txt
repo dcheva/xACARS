@@ -8,3 +8,5 @@ F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.csproj.CoreCompileInpu
 F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.exe
 F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.pdb
 F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.Login.resources
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.Main.resources
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.About.resources
