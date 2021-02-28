@@ -1,0 +1,10 @@
+F:\Flight Sim\Personal\xACARS\App\xACARS\bin\Debug\xACARS.exe.config
+F:\Flight Sim\Personal\xACARS\App\xACARS\bin\Debug\xACARS.exe
+F:\Flight Sim\Personal\xACARS\App\xACARS\bin\Debug\xACARS.pdb
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.csprojAssemblyReference.cache
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.Properties.Resources.resources
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.csproj.GenerateResource.cache
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.csproj.CoreCompileInputs.cache
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.exe
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.pdb
+F:\Flight Sim\Personal\xACARS\App\xACARS\obj\Debug\xACARS.Login.resources
