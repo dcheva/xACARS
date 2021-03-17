@@ -2,13 +2,13 @@
 # web.py                                    #
 # Speed_Limit75                             #
 #                                           #
-# This file is a libary that makes API      #
+# This file is a library that makes API      #
 # requests to the Virtual Airline take up   #
 # less space in the code, and also return   #
 # an error should there be one.             #
 # ----------------------------------------- #
 
-# Import libarys
+# Import libraries
 import requests
 import webbrowser
 import config
